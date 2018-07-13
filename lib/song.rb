@@ -73,7 +73,7 @@ describe "Song" do
   describe ".genre_count" do
     it "is a class method that returns a hash of genres and the number of songs that have those genres" do
       expect(Song.genre_count).to eq({"pop" => 1, "rap" => 2})
-    end
+    end m,
   end
 
   describe ".artist_count" do
